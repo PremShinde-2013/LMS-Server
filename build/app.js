@@ -31,7 +31,7 @@ exports.app.use((0, cookie_parser_1.default)());
 //     credentials: true,
 //   })
 // );
-exports.app.use((0, cors_1.default)({ origin: ["https://lms-client-wvtm.vercel.app"], credentials: true }));
+exports.app.use((0, cors_1.default)({ origin: ["https://lms-client-beige.vercel.app"], credentials: true }));
 exports.app.use("/api/v1", user_route_1.default, course_route_1.default, order_route_1.default, notification_route_1.default, analytics_route_1.default, layout_route_1.default);
 exports.app.get("/test", (req, res, next) => {
     res.status(200).json({
