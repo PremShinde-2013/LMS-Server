@@ -32,7 +32,7 @@ app.use(cookieParser());
 //   })
 // );
 app.use(
-	cors({ origin: ["https://lms-client-a8da.vercel.app"], credentials: true })
+	cors({ origin: ["https://lms-client-wvtm.vercel.app"], credentials: true })
 );
 
 app.use(
