@@ -31,7 +31,9 @@ app.use(cookieParser());
 //     credentials: true,
 //   })
 // );
-app.use(cors({ origin: ["http://localhost:3000"], credentials: true }));
+app.use(
+	cors({ origin: ["https://lms-client-a8da.vercel.app"], credentials: true })
+);
 
 app.use(
 	"/api/v1",
