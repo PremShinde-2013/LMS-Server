@@ -36,7 +36,7 @@ app.use(
 );
 
 app.use(
-	"api/v1",
+	"/api/v1",
 	userRouter,
 	courseRouter,
 	orderRouter,
@@ -45,7 +45,7 @@ app.use(
 	layoutRouter
 );
 
-app.get("test", (req: Request, res: Response, next: NextFunction) => {
+app.get("/test", (req: Request, res: Response, next: NextFunction) => {
 	res.status(200).json({
 		success: true,
 		message: "API is working",
