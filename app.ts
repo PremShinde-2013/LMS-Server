@@ -32,7 +32,7 @@ app.use(cookieParser());
 //   })
 // );
 app.use(
-	cors({ origin: ["https://lms-client-pied.vercel.app"], credentials: true })
+	cors({ origin: ["https://learnifypro-lms.vercel.app"], credentials: true })
 );
 
 app.use(
